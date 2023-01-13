@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestInnovec</string>
+
+    <string name="toast_text">Action is Toast!</string>
+</resources>

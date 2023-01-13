@@ -1,0 +1,50 @@
+[
+    {
+        "type": "animation",
+        "enabled": true,
+        "priority": 10,
+        "valid_days": [
+            0,
+            1,
+            3
+        ],
+        "cool_down": 86400000
+    },
+    {
+        "type": "toast",
+        "enabled": true,
+        "priority": 14,
+        "valid_days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "cool_down": 3600000
+    },
+    {
+        "type": "call",
+        "enabled": false,
+        "priority": 12,
+        "valid_days": [
+            2,
+            4,
+            5
+        ],
+        "cool_down": 1000
+    },
+    {
+        "type": "notification",
+        "enabled": true,
+        "priority": 7,
+        "valid_days": [
+            1,
+            2,
+            6
+        ],
+        "cool_down": 60000
+    }
+]
